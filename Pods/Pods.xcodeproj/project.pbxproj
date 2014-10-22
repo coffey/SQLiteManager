@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09D4411678EC28833E7A239C /* sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = 46CFCA85DE446FAC2837434E /* sqlite3.h */; };
+		11E1FDA8F4EADB311E442692 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F57F2F9729A0C6D47C21432 /* Cocoa.framework */; };
+		31D25637497D3B3A47A094A6 /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D2593ACE2F38085CA759BFE /* FMDatabaseAdditions.h */; };
+		3FE0565FEBD4ADCC8A479979 /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 38AF7CE3AD19F034A83640B9 /* FMResultSet.h */; };
+		40C0D6C616F1FF4F09046D06 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6760BB89482FDA579DF0E8E2 /* Security.framework */; };
+		47F6B36B734CD901DF65E818 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 13973EE57CC288A28A3C5500 /* Pods-dummy.m */; };
+		4C42B5FE3D31312482C646CA /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = A4C88D43FDB10DBE065DBEEE /* FMDB.h */; };
+		66156367249DB9CFF2E2B9E7 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1FD1C608FF090C8E6421AC /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		6718DC2D76128742B7B45933 /* Pods-SQLCipher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BB24CC48A385BCB5B41DE2 /* Pods-SQLCipher-dummy.m */; };
+		6A116F2783EE8C400A07C42F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F57F2F9729A0C6D47C21432 /* Cocoa.framework */; };
+		9962E9DAC64A536CED134468 /* Pods-FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE1849A02F98651AE1AD83A /* Pods-FMDB-dummy.m */; };
+		997E2A45E958D4A0C0C79C39 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCCCF5648342A50E9AE0DAC /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		B4725DC9EED5219B7ADFC518 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F57F2F9729A0C6D47C21432 /* Cocoa.framework */; };
+		D396FFAD48E596C99B20EFCC /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = ED863E705CD7189BE2C27E38 /* FMDatabasePool.h */; };
+		D6EF494E7440EB8518CF43E1 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D8C9E1C281A8E6A27928D4 /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		EAB4C44FE1FFF8656AFE1C14 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 60034E786F2CAF0A24F02848 /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		F49A9CD6F2F97E8364678241 /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 758B6EB2BAEB0C259E10B25E /* FMDatabaseQueue.h */; };
+		F5586B1F6FA8F946ADE8688F /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 0263A05C5F8A8C6949B46278 /* FMDatabase.h */; };
+		FAE10B2DFA9975425D845A0E /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = E71A9526ED8F4FB59BFB1DB2 /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		FE68E0E963BDE86B3D29BFC6 /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = DBFE1E4B977494CFC05F2A22 /* sqlite3.c */; settings = {COMPILER_FLAGS = "-DSQLITE_HAS_CODEC -DSQLITE_TEMP_STORE=2 -DSQLITE_THREADSAFE -DSQLCIPHER_CRYPTO_CC"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7666FCE45F33D566AFC91894 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1960FB97B158EDD82DF8FF75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0BCD36E899E4E7C44D52963;
+			remoteInfo = "Pods-SQLCipher";
+		};
+		98E3E93A43C2B6F490928C38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1960FB97B158EDD82DF8FF75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0233AA42F318482F919E530A;
+			remoteInfo = "Pods-FMDB";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0109D1A0BDAFC601D3F5066B /* Pods-SQLCipher-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SQLCipher-Private.xcconfig"; sourceTree = "<group>"; };
+		0263A05C5F8A8C6949B46278 /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
+		0AEAC00899CA18C1EE4C91DA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CCBF4C7F1C2CE28BD3BFFE1 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		13973EE57CC288A28A3C5500 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		1C1FD1C608FF090C8E6421AC /* FMDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
+		2A8086A041539220841081E2 /* Pods-FMDB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FMDB.xcconfig"; sourceTree = "<group>"; };
+		2F753EF21E6CEC91ECF58F83 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		3376648E65CD5339ED91F098 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		38AF7CE3AD19F034A83640B9 /* FMResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
+		39BB24CC48A385BCB5B41DE2 /* Pods-SQLCipher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SQLCipher-dummy.m"; sourceTree = "<group>"; };
+		420491A8AC50EE324CD9228A /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		46CFCA85DE446FAC2837434E /* sqlite3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = sqlite3.h; sourceTree = "<group>"; };
+		58B37B7125DD5D95EF582D4C /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		5C77BB91D2E113322C867FB9 /* Pods-FMDB-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FMDB-Private.xcconfig"; sourceTree = "<group>"; };
+		60034E786F2CAF0A24F02848 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = src/fmdb/FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		6760BB89482FDA579DF0E8E2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		6DCCCF5648342A50E9AE0DAC /* FMDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = src/fmdb/FMDatabaseQueue.m; sourceTree = "<group>"; };
+		6DE1849A02F98651AE1AD83A /* Pods-FMDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FMDB-dummy.m"; sourceTree = "<group>"; };
+		758B6EB2BAEB0C259E10B25E /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
+		7ED8A1F04C0C6C2826238DEF /* Pods-SQLCipher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SQLCipher-prefix.pch"; sourceTree = "<group>"; };
+		84D8C9E1C281A8E6A27928D4 /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
+		882B5E17F8B38A15DDB455AB /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8C5B0A1BB4D3FCA8B2DCF2D3 /* libPods-SQLCipher.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SQLCipher.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D2593ACE2F38085CA759BFE /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = src/fmdb/FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		9F57F2F9729A0C6D47C21432 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		A4C88D43FDB10DBE065DBEEE /* FMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = src/fmdb/FMDB.h; sourceTree = "<group>"; };
+		A4CE82D5AAF52311ED8FB3BA /* libPods-FMDB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FMDB.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B69FF3FABA1433AB86915100 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		D447ABC3A7ACB01CE663C29B /* Pods-FMDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FMDB-prefix.pch"; sourceTree = "<group>"; };
+		DBFE1E4B977494CFC05F2A22 /* sqlite3.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = sqlite3.c; sourceTree = "<group>"; };
+		E71A9526ED8F4FB59BFB1DB2 /* FMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
+		ED863E705CD7189BE2C27E38 /* FMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
+		F605D12D4FB1C8C5D2DFC702 /* Pods-SQLCipher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SQLCipher.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64A32BD07FFD33E0C7B5CFF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4725DC9EED5219B7ADFC518 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		731CC8E58C44AD47F3C78B60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A116F2783EE8C400A07C42F /* Cocoa.framework in Frameworks */,
+				40C0D6C616F1FF4F09046D06 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC292794E2CFB6C71D9639EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11E1FDA8F4EADB311E442692 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E890D876977D453D44E80E8 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				A4C88D43FDB10DBE065DBEEE /* FMDB.h */,
+				0263A05C5F8A8C6949B46278 /* FMDatabase.h */,
+				E71A9526ED8F4FB59BFB1DB2 /* FMDatabase.m */,
+				9D2593ACE2F38085CA759BFE /* FMDatabaseAdditions.h */,
+				60034E786F2CAF0A24F02848 /* FMDatabaseAdditions.m */,
+				ED863E705CD7189BE2C27E38 /* FMDatabasePool.h */,
+				1C1FD1C608FF090C8E6421AC /* FMDatabasePool.m */,
+				758B6EB2BAEB0C259E10B25E /* FMDatabaseQueue.h */,
+				6DCCCF5648342A50E9AE0DAC /* FMDatabaseQueue.m */,
+				38AF7CE3AD19F034A83640B9 /* FMResultSet.h */,
+				84D8C9E1C281A8E6A27928D4 /* FMResultSet.m */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+		300B261F034A8F52832E53E9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4BB2B1786DBCFA697DDA5143 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		349D72EC38566DA6EECEA95E = {
+			isa = PBXGroup;
+			children = (
+				3376648E65CD5339ED91F098 /* Podfile */,
+				91F4A3A4B3E12EDC6F06A8C2 /* Frameworks */,
+				4F7E36BFA9C68BE3F23456B2 /* Pods */,
+				9F4B657C2E8433F02DC3147F /* Products */,
+				300B261F034A8F52832E53E9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		4BB2B1786DBCFA697DDA5143 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				882B5E17F8B38A15DDB455AB /* Pods-acknowledgements.markdown */,
+				420491A8AC50EE324CD9228A /* Pods-acknowledgements.plist */,
+				13973EE57CC288A28A3C5500 /* Pods-dummy.m */,
+				2F753EF21E6CEC91ECF58F83 /* Pods-environment.h */,
+				58B37B7125DD5D95EF582D4C /* Pods-resources.sh */,
+				B69FF3FABA1433AB86915100 /* Pods.debug.xcconfig */,
+				0CCBF4C7F1C2CE28BD3BFFE1 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		4F7E36BFA9C68BE3F23456B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B22657C4820F060E57AC86F5 /* FMDB */,
+				B3E68B3827047A41EECA82E2 /* SQLCipher */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		91F4A3A4B3E12EDC6F06A8C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D387593F011001FC67981BA3 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F4B657C2E8433F02DC3147F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AEAC00899CA18C1EE4C91DA /* libPods.a */,
+				A4CE82D5AAF52311ED8FB3BA /* libPods-FMDB.a */,
+				8C5B0A1BB4D3FCA8B2DCF2D3 /* libPods-SQLCipher.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3D3EEB4A584DB5C467062C8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A8086A041539220841081E2 /* Pods-FMDB.xcconfig */,
+				5C77BB91D2E113322C867FB9 /* Pods-FMDB-Private.xcconfig */,
+				6DE1849A02F98651AE1AD83A /* Pods-FMDB-dummy.m */,
+				D447ABC3A7ACB01CE663C29B /* Pods-FMDB-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-FMDB";
+			sourceTree = "<group>";
+		};
+		B218BA7FD37D11A82A63B6FF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F605D12D4FB1C8C5D2DFC702 /* Pods-SQLCipher.xcconfig */,
+				0109D1A0BDAFC601D3F5066B /* Pods-SQLCipher-Private.xcconfig */,
+				39BB24CC48A385BCB5B41DE2 /* Pods-SQLCipher-dummy.m */,
+				7ED8A1F04C0C6C2826238DEF /* Pods-SQLCipher-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-SQLCipher";
+			sourceTree = "<group>";
+		};
+		B22657C4820F060E57AC86F5 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				A3D3EEB4A584DB5C467062C8 /* Support Files */,
+				1E890D876977D453D44E80E8 /* common */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		B3E68B3827047A41EECA82E2 /* SQLCipher */ = {
+			isa = PBXGroup;
+			children = (
+				B218BA7FD37D11A82A63B6FF /* Support Files */,
+				E1DB2694C7EE76F0981C5672 /* common */,
+			);
+			path = SQLCipher;
+			sourceTree = "<group>";
+		};
+		D387593F011001FC67981BA3 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				9F57F2F9729A0C6D47C21432 /* Cocoa.framework */,
+				6760BB89482FDA579DF0E8E2 /* Security.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		E1DB2694C7EE76F0981C5672 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				DBFE1E4B977494CFC05F2A22 /* sqlite3.c */,
+				46CFCA85DE446FAC2837434E /* sqlite3.h */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A4822A3254B0FC4AEA36FAAA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C42B5FE3D31312482C646CA /* FMDB.h in Headers */,
+				F5586B1F6FA8F946ADE8688F /* FMDatabase.h in Headers */,
+				31D25637497D3B3A47A094A6 /* FMDatabaseAdditions.h in Headers */,
+				D396FFAD48E596C99B20EFCC /* FMDatabasePool.h in Headers */,
+				F49A9CD6F2F97E8364678241 /* FMDatabaseQueue.h in Headers */,
+				3FE0565FEBD4ADCC8A479979 /* FMResultSet.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9453CF1C95FCAC6997A9C9D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09D4411678EC28833E7A239C /* sqlite3.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0233AA42F318482F919E530A /* Pods-FMDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52EA28C83ECA362EDEE9C469 /* Build configuration list for PBXNativeTarget "Pods-FMDB" */;
+			buildPhases = (
+				B5A0890D0D4D112965C9E7C9 /* Sources */,
+				DC292794E2CFB6C71D9639EF /* Frameworks */,
+				A4822A3254B0FC4AEA36FAAA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FMDB";
+			productName = "Pods-FMDB";
+			productReference = A4CE82D5AAF52311ED8FB3BA /* libPods-FMDB.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AFD32185CA4B848C06BC2C8C /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9074CAEB2CDAE1500C198661 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				5472CB76597638949DD53AB7 /* Sources */,
+				64A32BD07FFD33E0C7B5CFF9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A46F073919890C413338C4D /* PBXTargetDependency */,
+				A4EC98F01C6E1AF6A7761B97 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 0AEAC00899CA18C1EE4C91DA /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F0BCD36E899E4E7C44D52963 /* Pods-SQLCipher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6314C0084B2DEC9F120C9049 /* Build configuration list for PBXNativeTarget "Pods-SQLCipher" */;
+			buildPhases = (
+				0492E38D56DC4934524B5B96 /* Sources */,
+				731CC8E58C44AD47F3C78B60 /* Frameworks */,
+				C9453CF1C95FCAC6997A9C9D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SQLCipher";
+			productName = "Pods-SQLCipher";
+			productReference = 8C5B0A1BB4D3FCA8B2DCF2D3 /* libPods-SQLCipher.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1960FB97B158EDD82DF8FF75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = D35EA300F8F9D5E2C48819E4 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 349D72EC38566DA6EECEA95E;
+			productRefGroup = 9F4B657C2E8433F02DC3147F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFD32185CA4B848C06BC2C8C /* Pods */,
+				0233AA42F318482F919E530A /* Pods-FMDB */,
+				F0BCD36E899E4E7C44D52963 /* Pods-SQLCipher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0492E38D56DC4934524B5B96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6718DC2D76128742B7B45933 /* Pods-SQLCipher-dummy.m in Sources */,
+				FE68E0E963BDE86B3D29BFC6 /* sqlite3.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5472CB76597638949DD53AB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47F6B36B734CD901DF65E818 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A0890D0D4D112965C9E7C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE10B2DFA9975425D845A0E /* FMDatabase.m in Sources */,
+				EAB4C44FE1FFF8656AFE1C14 /* FMDatabaseAdditions.m in Sources */,
+				66156367249DB9CFF2E2B9E7 /* FMDatabasePool.m in Sources */,
+				997E2A45E958D4A0C0C79C39 /* FMDatabaseQueue.m in Sources */,
+				D6EF494E7440EB8518CF43E1 /* FMResultSet.m in Sources */,
+				9962E9DAC64A536CED134468 /* Pods-FMDB-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A46F073919890C413338C4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0233AA42F318482F919E530A /* Pods-FMDB */;
+			targetProxy = 98E3E93A43C2B6F490928C38 /* PBXContainerItemProxy */;
+		};
+		A4EC98F01C6E1AF6A7761B97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0BCD36E899E4E7C44D52963 /* Pods-SQLCipher */;
+			targetProxy = 7666FCE45F33D566AFC91894 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4BCCE4F8FF806962C7B8044E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0109D1A0BDAFC601D3F5066B /* Pods-SQLCipher-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SQLCipher/Pods-SQLCipher-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7A5F647BA4785C3E08B6F325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B69FF3FABA1433AB86915100 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		827EDB7AB0D6D67CEBB7C31C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0109D1A0BDAFC601D3F5066B /* Pods-SQLCipher-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SQLCipher/Pods-SQLCipher-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8420CE332F6CB0E293B6A318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C77BB91D2E113322C867FB9 /* Pods-FMDB-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-FMDB/Pods-FMDB-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					SQLITE_HAS_CODEC,
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9C05A4B961D414DC8B20854C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD2360E665FA4BF5D367268A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		BE8CE5A1D09A279F9282E485 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CCBF4C7F1C2CE28BD3BFFE1 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D5ADA1EF85F991F4ED2B3396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C77BB91D2E113322C867FB9 /* Pods-FMDB-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-FMDB/Pods-FMDB-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					SQLITE_HAS_CODEC,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52EA28C83ECA362EDEE9C469 /* Build configuration list for PBXNativeTarget "Pods-FMDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5ADA1EF85F991F4ED2B3396 /* Debug */,
+				8420CE332F6CB0E293B6A318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6314C0084B2DEC9F120C9049 /* Build configuration list for PBXNativeTarget "Pods-SQLCipher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BCCE4F8FF806962C7B8044E /* Debug */,
+				827EDB7AB0D6D67CEBB7C31C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9074CAEB2CDAE1500C198661 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A5F647BA4785C3E08B6F325 /* Debug */,
+				BE8CE5A1D09A279F9282E485 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D35EA300F8F9D5E2C48819E4 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD2360E665FA4BF5D367268A /* Debug */,
+				9C05A4B961D414DC8B20854C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1960FB97B158EDD82DF8FF75 /* Project object */;
+}
