@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-#define indexIdentifier @"wuyj_index"
+static NSString * const indexIdentifier = @"wuyj_index";
 
 
 @interface DBManger : NSObject
