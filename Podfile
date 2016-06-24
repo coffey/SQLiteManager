@@ -1,4 +1,8 @@
-platform :osx, "10.9"
+platform :osx, '10.9'
 
-pod 'FMDB'
-pod 'SQLCipher'
+target "SQLiteManager" do
+    
+    pod 'FMDB'
+    pod 'FMDB/SQLCipher'
+    
+end

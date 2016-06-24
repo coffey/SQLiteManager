@@ -2,8 +2,8 @@
 //  DBManger.m
 //  FMDB-encrypt
 //
-//  Created by wuyj on 14-10-19.
-//  Copyright (c) 2014年 baidu. All rights reserved.
+//  Created by wuyj on 16-06-20.
+//  Copyright (c) 2016年 baidu. All rights reserved.
 //
 
 
@@ -45,7 +45,7 @@
     [_db setShouldCacheStatements:YES];
     FMResultSet *rs = [_db executeQuery:sql];
     
-    NSMutableArray *resultArray = [[NSMutableArray alloc] initWithArray:0];
+    NSMutableArray *resultArray = [[NSMutableArray alloc] initWithCapacity:0];
     
     NSInteger index = 1;
     while ([rs next]) {
