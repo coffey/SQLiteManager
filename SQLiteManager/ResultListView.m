@@ -3,7 +3,7 @@
 //  SQLiteManager
 //
 //  Created by wuyj on 16-06-20.
-//  Copyright (c) 2016年 baidu. All rights reserved.
+//  Copyright (c) 2016年 wuyj. All rights reserved.
 //
 
 #import "ResultListView.h"
